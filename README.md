@@ -1,32 +1,31 @@
-🍅 Pomodoro Timer
+# 🍅 Pomodoro Timer Application
 
-This is a Pomodoro Timer built using Tkinter, based on the popular productivity method. It helps you stay productive by breaking work into intervals, traditionally 25 minutes of focused work followed by short breaks. This timer also includes a long break after several work sessions.
+The **Pomodoro Timer** is a productivity app based on the Pomodoro Technique. It helps users manage their time by alternating between work sessions and breaks. This application is built with Python's Tkinter library for a graphical interface.
 
-Features:
-Work sessions: 25 minutes of focused work.
+## Features:
+- **Timer for Work and Breaks:**
+  - **Work Session:** Default duration of 25 minutes.
+  - **Short Break:** Default duration of 5 minutes.
+  - **Long Break:** Default duration of 20 minutes after four work sessions.
+- **Visual Feedback:** Displays a tomato image with a dynamic countdown timer.
+- **Checkmarks for Progress:** After each work session, a checkmark (✔) is added to track progress.
+- **Start and Reset Controls:** Simple buttons to control the timer.
 
-Breaks: 5-minute short breaks and a 20-minute long break after 4 work sessions.
+## 🚀 How It Works:
+1. **Start Timer:** Click the "Start" button to begin a work session.
+2. **Automatic Switching:** The timer alternates between work and break sessions based on the number of sessions completed:
+   - After 4 work sessions, a long break is initiated.
+   - After each work session, a short break is initiated.
+3. **Reset Timer:** Click the "Reset" button to stop the timer and clear progress.
+4. **Track Progress:** Visual checkmarks appear below the timer to represent completed work sessions.
 
-Progress tracking: Displays a ✔️ mark after each completed work session.
+## 🛠️ Tech Stack:
+- **Python:** The main language used for this application.
+- **Tkinter:** Provides the GUI framework for the app.
 
-Reset functionality: Easily restart the timer to begin fresh.
+## Installation:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/pomodoro-timer
+cd pomodoro-timer
 
-
-How it works:
-Press the Start button to begin the timer.
-The timer alternates between work periods and breaks.
-After 4 work sessions, you'll be prompted to take a longer break.
-A ✔️ checkmark is added for each work session completed.
-Press Reset to stop the timer and clear the progress.
-
-Tech stack:
-Tkinter for the graphical user interface.
-Math functions for countdown calculations.
-Customization options for work/break intervals with adjustable time settings.
-
-How to run:
-Clone the repository and make sure you have a tomato.png image in the project folder.
-Run the main.py file using Python, and the Pomodoro timer will launch.
-Use the start/reset buttons to control your work sessions.
-
-This Pomodoro timer is a great tool for enhancing productivity, making it easy to manage time and stay focused. 💻⏳
